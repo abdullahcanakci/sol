@@ -7,7 +7,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.get("/", (req, res) => res.send("hello world 2"));
+app.get("/", (req, res) => res.send("Hello World!"));
 
 if (["local", "production"].includes(process.env.NODE_ENV ?? "local")) {
   console.log("App is listening");

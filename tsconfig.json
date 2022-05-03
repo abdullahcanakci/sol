@@ -1,10 +1,14 @@
 {
   "include": ["src"],
+  "exclude": ["node_modules"],
   "compilerOptions": {
     "baseUrl": ".",
     "rootDir": "src",
+    "moduleResolution": "node",
     "isolatedModules": true,
     "esModuleInterop": true,
+    "removeComments": true,
+    "target": "ES6",
     "paths": {
       "@mars/*": ["src/*"]
     }
