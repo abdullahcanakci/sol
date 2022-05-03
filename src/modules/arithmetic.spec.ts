@@ -1,9 +1,6 @@
-import { test } from "@japa/runner";
 import { sum } from "./arithmetic";
 
-test.group("arithmetic", () => {
-  test("add two numbers", ({ assert }) => {
-    // Test logic goes here
-    assert.equal(sum(2, 3), 5);
-  });
+test("add two numbers", () => {
+  // Test logic goes here
+  expect(sum(2, 3)).toBe(5);
 });

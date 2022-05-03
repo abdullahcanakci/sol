@@ -2,6 +2,7 @@
   "include": ["src"],
   "compilerOptions": {
     "baseUrl": ".",
+    "rootDir": "src",
     "isolatedModules": true,
     "esModuleInterop": true,
     "paths": {
